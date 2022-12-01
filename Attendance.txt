@@ -1,4 +1,4 @@
 StudentID:2213110584
 Fullname(in English):Pattarapa janstamp
 AKA:PentaYukina
-ClassDetail:Control Statement & Confirm Dialog
+ClassDetail:String Methods and Defined Methods
