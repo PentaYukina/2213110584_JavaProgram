@@ -1,0 +1,19 @@
+import javax.swing.*;
+import java.text.*;
+
+public class MakeChange {
+	public static void main(String[] args) {
+		DecimalFormat frm = new DecimalFormat("#,###.0");
+		
+		String timeParking = JOptionPane.showInputDialog("Input Time Parking(minute): ");
+		int timeMinute = Integer.parseInt(timeParking);
+		
+		
+		JOptionPane.showInputDialog(null,
+				"You parking "+hour
+				+" Hour "+minute +" Minute."
+				+"Amount to be paid is "+price +" baht.");
+		
+	}
+
+}

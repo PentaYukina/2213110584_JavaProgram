@@ -1,0 +1,20 @@
+import javax.swing.*;
+import java.text.*;
+
+public class Lab104 {
+	public static void main(String[] args) {
+		DecimalFormat frm = new DecimalFormat("#,###.0");
+		
+		int timeParking =Integer.parseInt(JOptionPane.showInputDialog("Input Time Parking(minute): "));
+		int hour = timeParking / 60;
+		int minute = timeParking % 60;
+		float price = (((float)hour*50)+((float)minute*25/100));
+		
+		JOptionPane.showInputDialog(null,
+				"You parking "+hour
+				+" Hour "+minute +" Minute."
+				+"Amount to be paid is "+price +" baht.");
+		
+	}
+
+}
