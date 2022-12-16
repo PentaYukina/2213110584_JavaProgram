@@ -18,7 +18,7 @@ public class Lab606 {
 		:"\nNo previous data")
 		+(indexOfArray!=nums.length-1
 		?"\nNext data, nums["+(indexOfArray+1)+"] is "+nextData(nums,indexOfArray)
-		:"\nNo previous data")) ;
+		:"\nNo next data")) ;
 	}
 	public static boolean checkIndex(int[] nums, int index) {
 		return (index >= nums.length)? true:false ;
