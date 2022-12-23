@@ -5,7 +5,7 @@ public class StockProduct {
 	static Scanner scan = new Scanner(System.in);
 	static Product[] pd = new Product[4];
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		DecimalFormat frm = new DecimalFormat("#,###.00");
 		for (int i = 0; i < pd.length; i++) {
 			pd[i] = new Product();

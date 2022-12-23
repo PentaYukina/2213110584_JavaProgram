@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CheckStockProduct {
 	static Scanner scan = new Scanner(System.in);
-
+ 
 	public static void main(String[] args) {
 		System.out.print("How many product list in stock : ");
 		int product = scan.nextInt();

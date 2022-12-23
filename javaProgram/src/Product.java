@@ -21,7 +21,7 @@ public class Product {
 	}
 	public double getPrice() {
 		return price;
-	}
+	} 
 	public double calculate() {
 		return price*unit;
 	}
