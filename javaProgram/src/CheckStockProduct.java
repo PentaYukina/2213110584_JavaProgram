@@ -15,6 +15,10 @@ public class CheckStockProduct {
 			pd[i].setId(scan.next());
 			System.out.print("Input product Unit : ");
 			pd[i].setUnit(scan.nextInt());
+			while(pd[i].getUnit()<=0) {
+				System.out.print("Input product Unit, again : ");
+				pd[i].setUnit(scan.nextInt());
+			}
 			System.out.println();
 		}
 

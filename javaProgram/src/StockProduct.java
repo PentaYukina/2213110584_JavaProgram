@@ -13,8 +13,16 @@ public class StockProduct {
 			pd[i].setId(scan.next());
 			System.out.print("Input product Unit : ");
 			pd[i].setUnit(scan.nextInt());
+			while(pd[i].getUnit()<=0) {
+				System.out.print("Input product Unit, again : ");
+				pd[i].setUnit(scan.nextInt());
+			}
 			System.out.print("Input product Price : ");
 			pd[i].setPrice(scan.nextDouble());
+			while(pd[i].getPrice()<=0) {
+				System.out.print("Input product Price, again : ");
+				pd[i].setPrice(scan.nextDouble());
+			}
 			System.out.println();
 		}
 		System.out.println("-------------------------------------------");
