@@ -1,5 +1,5 @@
-Date : 22-12-2022
-StudentID: 2213110584 
-Fullname(in English): Pattarapa Janstamp
-AKA : PentaYukina
-ClassDetail: Class and Object, Array of Object   
+ Date : 12/01/2023
+ StudentID: 2213110584
+ Fullname(in English): Pattarapa Janstamp 
+ AKA : PentaYukina
+ ClassDetail: GUI
