@@ -163,7 +163,6 @@ public class CalculateTwoNumber extends JFrame {
 		JButton btnExit = new JButton("Exit");
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			
 				System.exit(0);
 			}
 		});
