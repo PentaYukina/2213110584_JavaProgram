@@ -9,7 +9,6 @@ public class Person {
 	}
 	public Person(String first,String last) {
 		setName(first,last);
-		
 	}
 	public void setName(String first,String last) {
 		firstName = first;
